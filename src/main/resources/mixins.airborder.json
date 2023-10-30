@@ -5,7 +5,10 @@
   "refmap": "mixins.airborder.refmap.json",
   "target": "@env(DEFAULT)",
   "compatibilityLevel": "JAVA_8",
-  "mixins": [],
+  "mixins": [
+    "MixinAnvilChunkLoader"
+  ],
   "client": [],
-  "server": ["MixinChunkProviderServer"]
+  "server": [
+    "MixinChunkProviderServer"]
 }
